@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hasnain Naseer - Premium Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-O8C9VpM8q68H5yLhXsZq+QebmXq0c+RWw8x4fM5mX6fBj6mXRMxV1G3h+fZTljh2Aw2Ej6xo9kM60P3Wuh+X4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  /* Global Reset */
+  * { margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth; }
+  body { font-family:'Poppins', sans-serif; background:#0A0F1A; color:#fff; line-height:1.6; }
+
+  /* Animations */
+  @keyframes fadeInUp { 0%{opacity:0; transform:translateY(20px);} 100%{opacity:1; transform:translateY(0);} }
+  .fade-in { animation:fadeInUp 1s ease forwards; }
+
+  /* Header */
+  header { background: linear-gradient(135deg,#1A1F2B,#0A0F1A); text-align:center; padding:120px 20px 80px; border-radius:20px; }
+  header h1 { color:#FFD700; font-size:50px; font-weight:700; margin-bottom:10px; }
+  header p { color:#ccc; margin-bottom:8px; }
+  header a { color:#FFD700; text-decoration:none; font-weight:600; transition:0.3s; }
+  header a:hover { color:#1AC8DB; }
+
+  /* Sections */
+  section { padding:80px 20px; max-width:1100px; margin:auto; border-radius:20px; margin-bottom:50px; animation: fadeInUp 1s ease forwards; }
+
+  /* Section Colors */
+  #about { background: linear-gradient(135deg,#0F131F,#1A1F2B); }
+  #skills { background: linear-gradient(135deg,#1A1F2B,#161D29); }
+  #portfolio { background: linear-gradient(135deg,#1B2A3A,#0F1A26); }
+  #for-more { background: linear-gradient(135deg,#FF7E5F,#FEB47B); text-align:center; padding:60px 30px; }
+  #services { background: linear-gradient(135deg,#0F2A3A,#123345); }
+  #contact { background: linear-gradient(135deg,#1A2A2F,#0F131F); }
+
+  /* Headings */
+  h2 { font-size:34px; margin-bottom:30px; border-left:6px solid #1AC8DB; padding-left:12px; color:#FFD700; }
+
+  /* Skills & Services List */
+  ul { list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+  ul li { background: rgba(26,200,219,0.05); padding:20px; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.6); display:flex; gap:15px; align-items:center; transition:0.4s; }
+  ul li i { color:#1AC8DB; font-size:24px; }
+  ul li:hover { transform:translateY(-8px) scale(1.05); box-shadow:0 15px 35px rgba(0,0,0,0.8); }
+
+  /* Portfolio Cards */
+  .portfolio-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; }
+  .portfolio-card { background: rgba(255,255,255,0.05); border-radius:18px; padding:20px; box-shadow:0 12px 30px rgba(0,0,0,0.5); text-align:center; transition:0.5s; overflow:hidden; }
+  .portfolio-card img { width:100%; border-radius:12px; margin-bottom:15px; transition: transform 0.4s; }
+  .portfolio-card:hover img { transform: scale(1.05); }
+  .portfolio-card a { color:#FFD700; font-weight:600; text-decoration:none; transition:0.3s; }
+  .portfolio-card a:hover { color:#1AC8DB; text-decoration:underline; }
+  .portfolio-card:hover { transform:translateY(-12px) scale(1.03); box-shadow:0 18px 45px rgba(0,0,0,0.7); }
+
+  /* For More Visit Section */
+  #for-more h2 { color:#FFD700; margin-bottom:20px; border-left:6px solid #1AC8DB; padding-left:12px; }
+  #for-more p { font-size:18px; color:white; margin-bottom:20px; }
+  #for-more a { display:inline-block; background:#1AC8DB; color:white; padding:14px 28px; border-radius:12px; font-weight:600; text-decoration:none; transition:0.3s; }
+  #for-more a:hover { background:#FFD700; color:#0A0F1A; }
+
+  /* Buttons & Links */
+  .button { display:inline-block; background:#1AC8DB; color:#fff; padding:14px 28px; border-radius:12px; font-weight:600; text-decoration:none; transition:0.3s; }
+  .button:hover { background:#FFD700; color:#0A0F1A; }
+
+  /* Footer */
+  footer { text-align:center; padding:35px; background:#0F131F; color:#ccc; }
+
+  /* Responsive */
+  @media(max-width:768px){ header h1{ font-size:38px; } h2{ font-size:28px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hasnain Naseer</h1>
+  <p>SEO Blogger & Multi-Niche Content Writer</p>
+  <p>Email: <a href="mailto:hasnainnaseer835@gmail.com">hasnainnaseer835@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/hasnainnaseer" target="_blank">Hasnain Naseer</a></p>
+</header>
+
+<section id="about" class="fade-in">
+  <h2>About Me</h2>
+  <p>I am a research-driven and SEO-focused blogger specializing in high-quality content for Health, AI, Education, Tech, and Story Writing. I create structured, engaging, and SEO-optimized blogs that build website authority and improve Google rankings.</p>
+</section>
+
+<section id="skills" class="fade-in">
+  <h2>Core Skills</h2>
+  <ul>
+    <li><i class="fas fa-keyboard"></i> SEO-Optimized Blog Writing</li>
+    <li><i class="fas fa-search"></i> Keyword Research (Low Competition & High Volume)</li>
+    <li><i class="fas fa-wordpress"></i> WordPress Formatting & Publishing</li>
+    <li><i class="fas fa-heading"></i> On-Page SEO (Headings, Meta, Alt Text)</li>
+    <li><i class="fas fa-link"></i> Internal Linking Strategy</li>
+    <li><i class="fas fa-book"></i> Reference-Based Research</li>
+    <li><i class="fas fa-chart-line"></i> Competitor Analysis & Topic Outlining</li>
+  </ul>
+</section>
+
+<section id="portfolio" class="fade-in">
+  <h2>Portfolio Samples</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x180" alt="Portfolio 1">
+      <a href="https://vinesnest.com/rowdy-oxford-integris/" target="_blank">Rowdy Oxford Integris</a>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x180" alt="Portfolio 2">
+      <a href="https://vinesnest.com/diy-blacksmith-forge-how-to-build-a-%d0%b3%d0%be%d1%80%d0%bd-%d1%81%d0%b2%d0%be%d0%b8%d0%bc%d0%b8-%d1%80%d1%83%d0%ba%d0%b0%d0%bc%d0%b8/" target="_blank">DIY Blacksmith Forge – How to Build</a>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x180" alt="Portfolio 3">
+      <a href="https://vinesnest.com/tikcotech-leading-the-charge-in-intelligent-innovation/" target="_blank">Tikcotech: Leading the Charge</a>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x180" alt="Portfolio 4">
+      <a href="https://vinesnest.com/motoassure-vehicle-protection-plans-reviews-costs-coverage/" target="_blank">MotoAssure Vehicle Protection Plans</a>
+    </div>
+    <div class="portfolio-card">
+      <img src="https://via.placeholder.com/300x180" alt="Portfolio 5">
+      <a href="https://vinesnest.com/bbc-microbit-learn-coding/" target="_blank">BBC Micro:bit – Learn Coding</a>
+    </div>
+  </div>
+</section>
+
+<section id="for-more" class="fade-in">
+  <h2>For More Visit</h2>
+  <p>Check out more high-quality blogs and projects on my main website:</p>
+  <a href="https://vinesnest.com" target="_blank">Visit VinesNest</a>
+</section>
+
+<section id="services" class="fade-in">
+  <h2>Services Offered</h2>
+  <ul>
+    <li><i class="fas fa-pen-nib"></i> SEO Blog Writing (Health, AI, Tech, Education)</li>
+    <li><i class="fas fa-book-open"></i> Motivational & Fiction Story Writing</li>
+    <li><i class="fas fa-search-dollar"></i> Keyword Research & Topic Planning</li>
+    <li><i class="fas fa-cogs"></i> WordPress Uploading & Formatting</li>
+    <li><i class="fas fa-chart-pie"></i> Complete On-Page SEO Optimization</li>
+  </ul>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:hasnainnaseer835@gmail.com">hasnainnaseer835@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/hasnainnaseer" target="_blank">Hasnain Naseer</a></p>
+  <a href="mailto:hasnainnaseer835@gmail.com" class="button">Email Me</a>
+</section>
+
+<footer>
+  &copy; 2025 Hasnain Naseer
+</footer>
+
+</body>
+</html>
